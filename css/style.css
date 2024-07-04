@@ -1,0 +1,119 @@
+
+        body{
+            /* google font er font font family bebohar kore body er vitor apply korechi*/
+            font-family: "Roboto", sans-serif;
+            margin: 0;
+        }
+
+
+        .portfolio{
+    padding: 40px 30px;
+    width: 700px;
+    margin: 40px auto;
+    border-radius: 12px;
+    box-shadow: 5px 5px 10px 0px #7b7474;
+    text-align: center;
+  }
+
+
+  iframe{
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 0px #7b7474;
+  }
+
+
+    h1 {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 0;
+    font-weight: 900;
+    font-size: 50px;
+    color: #b66f6f; /* text onek beshi mota korte -webkit-text-stroke: 10px; */
+  }
+
+
+  p {
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 1.4;  /*dooi lainer maje kototoko faka ta bojay*/
+}
+ 
+
+ /* class ke call korte samne . dite hoy */
+.class1{
+  color: blue;
+}
+
+ 
+.class2{
+  color: rgb(16, 108, 50);
+} 
+
+
+mark{
+    background-color: #b66f6f;
+    color: #c8f580;
+    padding: 5px 20px;
+    border-radius: 20px;
+    /* display inline block deoyar fole background colour ta sundor vabe jayga niye uporer nicer lain kichota upore nice niche */
+    display: inline-block;
+}
+
+
+h2{
+  margin: 0;
+ 
+  display: block;
+  font-size: 40px;
+}
+
+
+.section2{
+  background-color: #7b7474;
+  text-align: center;
+  padding: 250px 0;
+ background-image: url(../images/5.jpeg);  /* ../ use korechi css folder theke ber hoye images foldere dhokte */
+  background-position: bottom;
+  background-attachment: fixed; /* background photo sthir rakhte background attachment fixer korechi */
+  background-size: cover;
+}
+
+
+.section3{    
+  text-align: center;
+  padding: 250px 0;
+  /* ../ use korechi css folder theke ber hoye images foldere dhokte */
+ background-image: url(../images/new1.jpg);
+  background-position: top;
+  /* background photo sthir rakhte background attachment fixer korechi */
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.section4{
+  text-align: center;
+  padding: 250px 0;
+   background-image: url(../images/new2.jpg);
+   background-size: cover;
+   background-attachment: fixed;
+}
+
+
+.section5{ 
+  padding: 250px 0;
+  background-image: url(../images/new.jpg);
+  text-align: center;
+  background-attachment: fixed;
+  background-size: cover;
+  
+}
+
+
+
+
+
+
+
+   
